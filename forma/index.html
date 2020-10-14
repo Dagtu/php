@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<section class="form">
+    <div class="container mt-4">
+        <h1 class="h3 mb-3 font-weight-normal">Введите данные</h1>
+        <form action="send.php" method="post">
+            <label>
+            Имя
+            <input type="text" class="form-control mt-1" name="name" placeholder="Введите имя пользователя">
+            </label> <br>
+            <label>
+            Номер телефона
+            <input type="text"  class="form-control mt-1" id="phone" name="phone" placeholder="Введите номер телефона">
+            </label><br>
+            <label>
+            Возраст
+            <input type="text"  class="form-control mt-1" name="age" placeholder="Введите ваш возраст">
+            </label><br>
+            <input type="submit" class="btn btn-success" placeholder="Отправить данные">
+        </form>
+    </div>
+</section>
+    
+    
+</body>
+</html>

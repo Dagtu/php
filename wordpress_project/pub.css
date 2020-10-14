@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+body{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#post_title{
+	margin: 25px 0;
+	color: black;
+	background: none;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	font-size: 32px;
+	border:none;
+	border-bottom: 1px solid #666;
+}
+
+#client_data {
+	display: none;
+}
+#wp-post_content-wrap {
+	margin-bottom: 25px;
+}
+#button_submit, #exit, #cat, #error_content  {
+	cursor: pointer;
+	border: none;
+	background: none;
+	color: #808080;
+	display: block;
+	border-bottom: 1px solid #666;
+	margin: 0 auto 20px;
+	height: 40px;
+	font-size: 32px;
+	width: 100%;
+	text-decoration: none;
+	text-align: left;
+	transition: all 0.5s ease;
+}
+#error_content {
+	color: black;
+}
+#button_submit:hover, #exit:hover, #cat:hover {
+	color: black;
+}
+.flex {
+	width: 600px;
+	margin: 0 auto;
+}
